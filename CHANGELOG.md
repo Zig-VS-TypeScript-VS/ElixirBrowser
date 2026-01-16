@@ -3,17 +3,20 @@
 ---
 
 ## ・Upcoming Features
+<br>
 
--   Update to Chromium 145 series. Talk about bad timing—just as I finished the grueling task of implementing the bottom toolbar, the official version went and added it. Fate is cruel.
-    -  However, the UI has changed in many places, and I suspect many people will still prefer the 144 series, so I'll continue to fix 144-specific bugs if any are found.
--   Add functionality to set wallpapers on the New Tab Page (to be implemented within the shortcut icon long-press menu).
--   Add an option to open Speed Dial shortcuts in a new tab.
 -   Disable the automatic keyboard language switching based on the browser's language setting.
-<br><br/>
 
 ---
 
 ## ・Implemented Features
+
+## [1.0.1]
+
+-   **Updated Chromium base to version 144.0.7559.76.**
+-   Added custom wallpaper support for the New Tab Page (accessible via the Speed Dial menu).
+-   Added an "Open in Background" option to the Speed Dial menu.
+-   Removed "Downloads" from the Settings menu.
 
 ## [1.0.0]
 
