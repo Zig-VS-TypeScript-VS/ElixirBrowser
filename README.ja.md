@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/SF-FLAM/ElixirBrowser/releases/latest"><img src="https://img.shields.io/badge/Download-Latest-brightgreen?style=for-the-badge"></a>
+  <a href="https://github.com/sponsors/SF-FLAM"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors"></a>
   <a href="https://buymeacoffee.com/sf_flam"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"></a>
 </p>
 
@@ -68,6 +69,8 @@ Chromiumの改変とその保守は非常に過酷な作業です。
 正直めちゃ大変なので、長期的な継続の為、どうか応援のほどよろしくお願い致します(貧民)  
 ↓↓↓
   
+<<**[❤️ GitHub Sponsors](https://github.com/sponsors/SF-FLAM)**>>
+
 <<**[☕ Buy Me A Coffee](https://buymeacoffee.com/sf_flam)**>>  
 
 <br>
