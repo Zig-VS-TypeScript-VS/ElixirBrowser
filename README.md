@@ -4,6 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/SF-FLAM/ElixirBrowser/releases/latest"><img src="https://img.shields.io/badge/Download-Latest-brightgreen?style=for-the-badge"></a>
+  <a href="https://github.com/sponsors/SF-FLAM"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=githubsponsors"></a>
   <a href="https://buymeacoffee.com/sf_flam"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"></a>
 </p>
 
@@ -68,6 +69,8 @@ Modifying and maintaining Chromium is an incredibly grueling task.
 To be honest, it is quite a struggle for a solo developer. To ensure the long-term sustainability of this project, please consider supporting me (the poor dev).  
 ↓↓↓  
   
+<<**[❤️ GitHub Sponsors](https://github.com/sponsors/SF-FLAM)**>>
+
 <<**[☕ Buy Me A Coffee](https://buymeacoffee.com/sf_flam)**>>  
 
 <br>
