@@ -6,6 +6,7 @@
 <br>
 
 -   Disable the automatic keyboard language switching based on the browser's language setting.
+-   Lock background tab behavior to "Freeze" only (instead of "Discard"). This prevents page reloads when switching tabs, even after extended inactivity.
 
 ---
 
