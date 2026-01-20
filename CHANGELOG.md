@@ -19,12 +19,16 @@
 -   Locked background tab behavior to "Freeze" only (instead of "Discard"). This prevents page reloads when switching tabs, even after extended inactivity.
 -   Removed some unnecessary code.
 
+<br>
+
 ## [1.0.1]
 
 -   **Updated Chromium base to version 144.0.7559.76.**
 -   Added custom wallpaper support for the New Tab Page (accessible via the Speed Dial menu).
 -   Added an "Open in Background" option to the Speed Dial menu.
 -   Removed "Downloads" from the Settings menu.
+
+<br>
 
 ## [1.0.0]
 
