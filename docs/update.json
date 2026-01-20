@@ -1,4 +1,4 @@
 {
     "latestVersion": "1.0.2",
-    "changeLog": "- Locked background tab behavior to Freeze only (instead of Discard). This prevents page reloads when switching tabs, even after extended inactivity.\n \n- Removed some unnecessary code."
+    "changeLog": "- Locked background tab behavior to Freeze only (instead of Discard).\n \n- Removed some unnecessary code."
 }
