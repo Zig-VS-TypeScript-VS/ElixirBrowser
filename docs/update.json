@@ -1,4 +1,4 @@
 {
-    "latestVersion": "1.0.1",
-    "changeLog": "- Updated Chromium base to version 144.0.7559.76.\n- Added custom wallpaper support for the New Tab Page (accessible via the Speed Dial menu).\n- Added an \"Open in Background\" option to the Speed Dial menu.\n- Removed \"Downloads\" from the Settings menu."
+    "latestVersion": "1.0.2",
+    "changeLog": "- Locked background tab behavior to Freeze only (instead of Discard). This prevents page reloads when switching tabs, even after extended inactivity.\n \n- Removed some unnecessary code."
 }
