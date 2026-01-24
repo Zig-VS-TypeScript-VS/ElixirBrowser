@@ -5,8 +5,10 @@
 ## ・Upcoming Features
 <br>
 
--   Disable the automatic keyboard language switching based on the browser's language setting.
--   Customizable Gesture Support.
+-   Override Chromium's default behavior that causes media playback to stop when the tab is switched or the window is minimized. (Top Priority)
+-   Disable the automatic keyboard language switching based on the browser's language setting.(This is becoming a low-priority task)
+-   Fix the issue where scroll smoothness is slightly lost when gesture features are enabled.(Long-term task; complexity is extremely high, requiring substantial time)
+-   Implement Speed Dial shortcut reordering.(Looks surprisingly difficult, so maybe if I feel like it)
 
 ---
 
