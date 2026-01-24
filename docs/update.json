@@ -1,4 +1,3 @@
 {
-    "latestVersion": "1.0.2",
-    "changeLog": "- Locked background tab behavior to Freeze only (instead of Discard).\n \n- Removed some unnecessary code."
+    "latestVersion": "1.0.3"
 }
