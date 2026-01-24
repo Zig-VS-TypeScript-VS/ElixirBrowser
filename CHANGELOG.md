@@ -6,15 +6,34 @@
 <br>
 
 -   Override Chromium's default behavior that causes media playback to stop when the tab is switched or the window is minimized. (Top Priority)
--   Disable the automatic keyboard language switching based on the browser's language setting.(This is becoming a low-priority task)
--   Fix the issue where scroll smoothness is slightly lost when gesture features are enabled.(Long-term task; complexity is extremely high, requiring substantial time)
--   Implement Speed Dial shortcut reordering.(Looks surprisingly difficult, so maybe if I feel like it)
+
+---
+
+<br>
+
+## ・Ideas Under Consideration
+<br>
+
+-   Implement Speed Dial shortcut reordering. (Looks surprisingly difficult, so maybe if I feel like it)
+-   Support for external download managers or an option to always ask for the download location.
+-   Direct installation support for .crx extension files.
+-   Allow custom JavaScript execution as a gesture action.
+-   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
 
 ---
 
 <br>
 
 ## ・Implemented Features
+
+## [1.0.4]
+
+-   **Resolved the scroll jitter issue when gestures are enabled.** It turns out that **"unavoidable structural limitation"** wasn't as permanent as I thought; a quick rethink was all it took.
+    -   That said, please note that this remains an experimental feature, and stable operation is not yet guaranteed.✌🤪
+-   Added a toggle in Accessibility settings to change the behavior when closing the last remaining tab (Minimize app or Open new tab).
+
+
+<br>
 
 ## [1.0.3]
 
