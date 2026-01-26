@@ -5,7 +5,7 @@
 ## ・Upcoming Features
 <br>
 
--   Override Chromium's default behavior that causes media playback to stop when the tab is switched or the window is minimized. (Top Priority)
+-   Add an option to toggle "Pull-to-Refresh" ON/OFF.
 
 ---
 
@@ -25,6 +25,28 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.5]
+
+- **Complete overhaul of gesture recognition logic.**
+    - Switched from my totally custom coordinate/angle monitoring (which checked every single frame) to a **Normalized Shape-Matching system** (based on the $1 Unistroke Recognizer combined with my own additional logic).
+    - Turns out relying on famous, proven logic is way better. Don't reinvent the wheel. (Self-reflection).
+
+<br>
+
+- Added a "Gesture Strictness" setting. Default is 85%. Lower values mean more lenient detection, making gestures easier to trigger.
+- Fixed the behavior when closing tabs via gestures to ensure it works correctly.
+- Fixed the behavior when restoring tabs via gestures.
+
+<br>
+
+- **Removed "Notifications" from the Settings UI.** I hated accidentally tapping it and being warped away—it was such a waste of time.
+
+<br>
+
+- **Modified Chromium's default behavior so that video and music keep playing even when switching tabs or minimizing the app.**
+    - Note: Sites like YouTube, which use JavaScript to actively monitor page visibility, will still pause.
+    - Bypassing this would require either keeping JS running for all background tabs or "sniping" specific domains—both of which carry performance hits, memory load, and legal risks, so I have no plans to change this, and it will likely remain in its current state.
 
 ## [1.0.4]
 
