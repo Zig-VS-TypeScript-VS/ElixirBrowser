@@ -35,7 +35,7 @@
 <br>
 
 - Added a "Gesture Strictness" setting. Default is 85%. Lower values mean more lenient detection, making gestures easier to trigger.
-- Fixed the behavior when closing tabs via gestures to ensure it works correctly.
+- Fixed the behavior when closing tabs via gestures.
 - Fixed the behavior when restoring tabs via gestures.
 
 <br>
