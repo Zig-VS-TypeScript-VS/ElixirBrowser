@@ -26,6 +26,12 @@
 
 ## ・Implemented Features
 
+## [1.0.6]
+
+-   **Fixed an issue where multi-step gestures were blocked if their prefix paths were set to "None".**
+
+<br>
+
 ## [1.0.5]
 
 - **Complete overhaul of gesture recognition logic.**
