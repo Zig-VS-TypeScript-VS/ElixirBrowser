@@ -14,6 +14,7 @@
 ## ・Ideas Under Consideration
 <br>
 
+-   Add an option to reverse the vertical swipe gesture on the toolbar that displays the tab list.
 -   Implement Speed Dial shortcut reordering. (Looks surprisingly difficult, so maybe if I feel like it)
 -   Support for external download managers or an option to always ask for the download location.
 -   Direct installation support for .crx extension files.
