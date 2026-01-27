@@ -46,6 +46,9 @@ However, high-utility features such as Google Translate and Search Suggestions r
     * **Custom Speed Dial implementation**
     * **Etc...**
 
+*   **Customizable Gestures**
+    *   Freely map various actions to gestures for ultimate control and browsing comfort.
+
 *   **Behavioral Improvements**:
     * **Close tab via back gesture**: When there is no remaining back history, the back gesture closes the tab instead of returning to the Home/New Tab Page.
     * **Etc...**
@@ -139,15 +142,4 @@ A : Please use whichever you prefer. Personally, I use **AdGuard**.
   - The popup does not function at all (It just spins endlessly on PC too, so maybe it's by design?).
   - It seems impossible to temporarily turn it OFF for the current site.
 
-<br>
 
-## Bonus
-
-I have included my custom UserScript, **"SMG - Simple Mobile Gestures,"** as a bonus.  
-It is designed to be lightweight and reliable while avoiding conflicts with web pages.  
-It is intended for users to modify as they see fit; by default, it includes only minimal functionality.  
-Please note that for security reasons, the "Close Tab" gesture will not work when there is only one tab open.  
-
-Additionally, as I may implement native gesture functionality into the browser itself in the future, this script may eventually become obsolete.  
-
-<<**[Install UserScript](https://github.com/SF-FLAM/ElixirBrowser/raw/refs/heads/main/userscripts/SMG_SimpleMobileGestures.user.js)**>>
