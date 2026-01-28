@@ -5,7 +5,8 @@
 ## ・Upcoming Features
 <br>
 
--   Add an option to toggle "Pull-to-Refresh" ON/OFF.
+-   Add the feature to import Chrome bookmark files.
+-   Support for external download managers or an option to always ask for the download location.
 
 ---
 
@@ -14,9 +15,7 @@
 ## ・Ideas Under Consideration
 <br>
 
--   Add an option to reverse the vertical swipe gesture on the toolbar that displays the tab list.
 -   Implement Speed Dial shortcut reordering. (Looks surprisingly difficult, so maybe if I feel like it)
--   Support for external download managers or an option to always ask for the download location.
 -   Direct installation support for .crx extension files.
 -   Allow custom JavaScript execution as a gesture action.
 -   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
@@ -26,6 +25,14 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.7]
+
+-   Added toggles to customize main menu items in Settings > Appearance.
+-   Added a toggle for "Pull-to-Refresh" in Accessibility settings.
+-   Added a toggle in Accessibility settings to reverse the vertical swipe gesture on the toolbar that displays the tab switcher.
+
+<br>
 
 ## [1.0.6]
 
@@ -151,13 +158,13 @@
 
 -   Settings > Forced Homepage to OFF and removed it from the UI.
 
--   Settings > Design > Forced Toolbar Shortcut to OFF and removed it from the UI.
+-   Settings > Appearance > Forced Toolbar Shortcut to OFF and removed it from the UI.
 
 -   Settings > Privacy and Security > Removed "Privacy Guide" from the UI.
 
 -   Settings > Privacy and Security > Removed "Ad Privacy" from the UI (everything inside is OFF by default).
 
--   Settings > Design > Removed "Bookmark Bar" from the UI. (The UI breaks in Bottom Toolbar mode. Might reimplement if I feel like it).
+-   Settings > Appearance > Removed "Bookmark Bar" from the UI. (The UI breaks in Bottom Toolbar mode. Might reimplement if I feel like it).
 
 -   Settings > Removed "DeveloperOptions" from the UI.
 
