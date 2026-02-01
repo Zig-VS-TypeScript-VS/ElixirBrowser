@@ -1,6 +1,6 @@
 # Modified Files
 
-## [1.0.7]
+## [1.0.8]
 
 <details>
 <summary>Click to expand</summary>
