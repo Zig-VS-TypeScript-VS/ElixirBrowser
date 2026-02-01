@@ -5,8 +5,7 @@
 ## ・Upcoming Features
 <br>
 
--   Add the feature to import Chrome bookmark files.
--   Support for external download managers or an option to always ask for the download location.
+-   Support for external download managers or an option to always ask for the download location. (It has become clear that this is more difficult than anticipated, so implementation is expected to take time)
 
 ---
 
@@ -26,8 +25,28 @@
 
 ## ・Implemented Features
 
+## [1.0.8]
+
+-   **Added a toggle to prevent background tabs from reloading. (Default: OFF)**
+    -   This feature is marked as **Experimental** because its long-term stability and the exact memory impact of keeping tab contents resident are still being evaluated.
+    -   It should be perfectly fine on modern smartphones, so I'm personally using it with the feature turned on for now.
+
+<br>
+
+-   **Implemented Bookmark Import/Export functionality (Experimental)**
+    -   Dedicated buttons have been added to the top-right menu of the bookmarks page.
+
+<br>
+
+-   Restored the Home Page feature.
+-   Added toggles in Settings > Appearance to customize visible toolbar buttons.
+-   Relaxed the row limit for the Speed Dial in portrait mode.
+
+<br>
+
 ## [1.0.7]
 
+-   Fixed an issue where the main menu contents were cut off.
 -   Added toggles to customize main menu items in Settings > Appearance.
 -   Added a toggle for "Pull-to-Refresh" in Accessibility settings.
 -   Added a toggle in Accessibility settings to reverse the vertical swipe gesture on the toolbar that displays the tab switcher.
