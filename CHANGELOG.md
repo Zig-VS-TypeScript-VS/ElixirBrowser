@@ -25,6 +25,15 @@
 
 ## ・Implemented Features
 
+## [1.0.9]
+
+-   Added a toggle to hide extension icons that are forced to appear in the toolbar on tablets.
+-   Fixed severe toolbar corruption when using incognito tabs.
+-   Changed the default behavior from incognito windows to incognito tabs.
+-   Modified to display a “Private Tab ←→ Normal Tab” toggle button on the tab bar when one or more incognito tabs are open.
+
+<br>
+
 ## [1.0.8]
 
 -   **Added a toggle to prevent background tabs from reloading. (Default: OFF)**
