@@ -5,6 +5,7 @@
 ## ・Upcoming Features
 <br>
 
+-   Improve the extension pop-up so that it functions properly with any extension. (Currently Adguard does not work)
 -   Support for external download managers or an option to always ask for the download location. (It has become clear that this is more difficult than anticipated, so implementation is expected to take time)
 
 ---
