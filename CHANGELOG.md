@@ -5,6 +5,7 @@
 ## ・Upcoming Features
 <br>
 
+-   Add a feature to prevent the toolbar from hiding when scrolling.
 -   Support for external download managers or an option to always ask for the download location. (It has become clear that this is more difficult than anticipated, so implementation is expected to take time)
 
 ---
