@@ -14,7 +14,7 @@
 ## ・Ideas Under Consideration
 <br>
 
--   Direct installation support for .crx extension files. (Looks surprisingly difficult, so maybe if I feel like it)
+-   Direct installation support for .crx extension files. (Looks very difficult, so maybe if I feel like it)
 -   Allow custom JavaScript execution as a gesture action.
 -   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
 
