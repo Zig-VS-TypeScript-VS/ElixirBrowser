@@ -133,13 +133,9 @@ A : Please use whichever you prefer. Personally, I use **AdGuard**.
   - As of Jan 2026, loading external filters in the custom filter section is technically possible, but it feels like they don't work correctly when loaded.
   - Compared to AdGuard, some ads are not blocked even with the same filters.
   - The extension popup functions perfectly, and manual blocking via element selection is easy.
-  - You can easily toggle it OFF temporarily for the current site.
 
 - **AdGuard AdBlocker**
   - Fully supports adding external filters, and gives the impression of no leaks.
   - Blocking via element selection is difficult to use. There is also a strange lag in applying changes.
   - It takes a while to start working after restarting the browser. It feels generally slow.
-  - The popup does not function at all (It just spins endlessly on PC too, so maybe it's by design?).
-  - It seems impossible to temporarily turn it OFF for the current site.
-
 
