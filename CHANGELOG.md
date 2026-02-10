@@ -5,7 +5,6 @@
 ## ・Upcoming Features
 <br>
 
--   Improve the extension pop-up so that it functions properly with any extension. (Currently Adguard does not work)
 -   Support for external download managers or an option to always ask for the download location. (It has become clear that this is more difficult than anticipated, so implementation is expected to take time)
 
 ---
@@ -15,8 +14,7 @@
 ## ・Ideas Under Consideration
 <br>
 
--   Implement Speed Dial shortcut reordering. (Looks surprisingly difficult, so maybe if I feel like it)
--   Direct installation support for .crx extension files.
+-   Direct installation support for .crx extension files. (Looks surprisingly difficult, so maybe if I feel like it)
 -   Allow custom JavaScript execution as a gesture action.
 -   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
 
@@ -25,6 +23,20 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.10]
+
+-   Improved extension pop-ups
+    -   Previously, extensions like AdGuard weren't displayed, but they now function correctly.
+    -   This also resolves issues such as AdGuard crashes and slow updates after restarting (displaying the pop-up ensures it starts working reliably).
+    - However, this fix uses a less-than-ideal approach: it forces the popup to be at least a certain minimum size. This means extensions like DarkReader, which previously worked fine, now have larger popups.
+    - Consequently, the popup UI might break on some devices or with certain extensions. Still, it's better than the previous state where popups didn't appear at all.
+
+-   Implemented Speed Dial reordering functionality
+    -   It probably doesn't behave as expected, but at least reordering is now possible.
+    -   Please forgive me—achieving a modern, smooth sliding animation is technically very difficult. 🙇‍♀️
+
+<br>
 
 ## [1.0.9]
 
