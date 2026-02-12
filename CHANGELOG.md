@@ -29,9 +29,10 @@
 - Added option to keep the toolbar visible while scrolling.
 - Added option to automatically focus the URL bar when opening a new tab.
 - Added an option to always open links in Elixir instead of external apps.
-   - GooglePlay is the only exception; it will still redirect to the app after opening.
+    - GooglePlay is the only exception; it will still redirect to the app after opening.
 
-- Disabled fieldtrial_testing_config. This “may” resolve several issues occurring on some devices. However, it may also introduce multiple other issues.
+- Disabled fieldtrial_testing_config.
+    - This “may” resolve several issues occurring on some devices. However, it may also introduce multiple other issues.
 
 <br>
 
