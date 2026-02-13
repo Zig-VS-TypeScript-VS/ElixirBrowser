@@ -24,6 +24,14 @@
 
 ## ・Implemented Features
 
+## [1.0.12]
+
+- Fixed an issue where PWA functionality had failed to work.
+    - The cause was undoubtedly disabling fieldtrial_testing_config. Successfully restored functionality by manually enabling several flags within it.
+    - Since I never use this feature myself, I hadn't noticed at all. Thanks to the reporter.
+ 
+<br>
+
 ## [1.0.11]
 
 - Added option to keep the toolbar visible while scrolling.
