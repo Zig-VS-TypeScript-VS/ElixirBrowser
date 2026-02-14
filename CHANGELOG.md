@@ -24,6 +24,14 @@
 
 ## ・Implemented Features
 
+## [1.0.13]
+
+-   **Fixed an issue where the tab reload prevention feature was not working since v1.0.11**
+-   Fixed an issue where the progress bar animation was simplified
+-   **Fixed an issue where the progress bar background occasionally remained visible**
+
+<br>
+
 ## [1.0.12]
 
 - Fixed an issue where PWA functionality had failed to work.
