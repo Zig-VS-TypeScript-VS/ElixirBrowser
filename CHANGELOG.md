@@ -26,9 +26,9 @@
 
 ## [1.0.13]
 
--   **Fixed an issue where the tab reload prevention feature was not working since v1.0.11**
--   Fixed an issue where the progress bar animation was simplified
--   **Fixed an issue where the progress bar background occasionally remained visible**
+-   **Fixed an issue where the tab reload prevention feature was not working since v1.0.11.**
+-   Fixed an issue where the progress bar animation was simplified.
+-   **Fixed an issue where the progress bar background occasionally remained visible.**
 
 <br>
 
