@@ -5,6 +5,8 @@
 ## ・Upcoming Features
 <br>
 
+-   Major refactoring of all code related to the bottom toolbar (This is going to take a lot of time & be tough)
+    -   Until this is complete, I cannot accept any requests related to the bottom toolbar. Please forgive me. 💃
 -   Support for external download managers or an option to always ask for the download location. (It has become clear that this is more difficult than anticipated, so implementation is expected to take time)
 
 ---
