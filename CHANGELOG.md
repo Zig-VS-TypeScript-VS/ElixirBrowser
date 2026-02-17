@@ -14,6 +14,8 @@
 ## ・Ideas Under Consideration
 <br>
 
+-   Add an option to close all tabs to the main menu.
+-   Fix the issue where the icon in the URL bar is not centered.
 -   Direct installation support for .crx extension files. (Looks very difficult, so maybe if I feel like it)
 -   Allow custom JavaScript execution as a gesture action.
 -   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
@@ -23,6 +25,18 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.14]
+
+-   Revised descriptions for some options.
+-   Fixed an issue where https or http was automatically added when registering Speed Dial shortcuts.
+-   Added support for EdgeToEdge mode. (gesture navigation bar becomes transparent)
+    -   However, it is forcibly disabled in bottom toolbar mode.
+    -   May not work on some Android versions. The exact behavior in such cases is currently unknown.
+-   Fixed an issue where the status bar would forcibly turn black when switching to landscape mode while gesture feature was enabled.
+    -   This was a major headache. It took me three days to even realize the gesture feature was the cause. 😡
+
+<br>
 
 ## [1.0.13]
 
