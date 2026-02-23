@@ -29,7 +29,7 @@
 
 ## [1.0.15]
 
-- Fixed an issue where buttons like the main menu button weren't displayed in Incognito Tab mode.
+- Fixed an issue where the top 5 buttons in the main menu weren't displayed in Incognito Tab mode.
 
 - Finally fixed the icon position in the URL bar being shifted downward.
     - This had been bothering me for a while, but I couldn't figure out how to fix it until now. The cause was that while the tablet toolbar was always being called, the dimensions and other specifications used were still set for smartphones.
