@@ -17,7 +17,6 @@
 <br>
 
 -   Add an option to close all tabs to the main menu.
--   Fix the issue where the icon in the URL bar is not centered.
 -   Direct installation support for .crx extension files. (Looks very difficult, so maybe if I feel like it)
 -   Allow custom JavaScript execution as a gesture action.
 -   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
@@ -27,6 +26,25 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.15]
+
+- Fixed an issue where buttons like the main menu button weren't displayed in Incognito Tab mode.
+
+- Finally fixed the icon position in the URL bar being shifted downward.
+    - This had been bothering me for a while, but I couldn't figure out how to fix it until now. The cause was that while the tablet toolbar was always being called, the dimensions and other specifications used were still set for smartphones.
+
+- Added a toggle to accessibility settings to open new tabs via long-pressing the tab switcher button.
+    - Implemented this due to high demand, but it was surprisingly tricky. Tab-related operations are prone to crashes, so I was hesitant to touch them.
+
+<br>
+
+- Modified history page to display the time the page was opened.
+    - Sometimes when I wake up, I wonder how many hours I slept. I never remember what time I went to bed. 🤔
+    - In those moments, I'd always check my browser history to confirm my sleep duration. But on Android, it just wouldn't show up. Terrible.
+    - Internally, the page open time was already saved in the history data, so implementation was straightforward. But seriously, if it exists, couldn't they have just shown it from the start? 👿
+
+<br>
 
 ## [1.0.14]
 
