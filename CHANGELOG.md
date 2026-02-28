@@ -16,7 +16,6 @@
 ## ・Ideas Under Consideration
 <br>
 
--   Add an option to close all tabs to the main menu.
 -   Direct installation support for .crx extension files. (Looks very difficult, so maybe if I feel like it)
 -   Allow custom JavaScript execution as a gesture action.
 -   Disable the automatic keyboard language switching based on the browser's language setting. (This is becoming a low-priority task)
@@ -26,6 +25,16 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.16]
+
+- Implemented data deletion functionality. Added a “Destruct Data” option to the main menu.
+    - Also added “Destruction Settings” to the settings screen. This allows specifying detailed behavior. You can also configure it to run automatically at startup without pressing a button.
+    - Internally, it just calls the existing “Delete browsing data” function, so it should be very safe. 🤔
+    - However, enabling auto-execution at startup required careful timing to avoid crashes, so the code ended up complex after all. Looks like it'll be tough to maintain. 😭
+    - The button is hidden by default, so you need to enable it in Settings > Appearance.
+
+<br>
 
 ## [1.0.15]
 
