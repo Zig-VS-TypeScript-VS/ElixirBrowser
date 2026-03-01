@@ -36,5 +36,4 @@ We may update our Privacy Policy from time to time to reflect changes in the app
 ## 7. Contact Us
 If you have any questions or suggestions about our Privacy Policy, please contact us.
 
-*   **Mail:** orchestra.nw@gmail.com
 *   **GitHub:** https://github.com/SF-FLAM/ElixirBrowser
