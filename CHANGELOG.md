@@ -26,6 +26,21 @@
 
 ## ・Implemented Features
 
+## [1.0.17]
+
+- **Fixed an issue where certain non-popup extensions caused the browser to crash immediately after execution.**
+    - This allows several extensions that previously caused crashes to now function correctly.
+    - However, it still does not guarantee the operation of all extensions.
+
+<br>
+
+- Fixed an issue where the extension list would disappear unexpectedly while the page was loading.
+    - There are still times when it becomes unresponsive, so you may need to reopen the list.
+    - At least it no longer causes your eyes to flicker, so that's a win. 🤩
+- Added a toggle to always display the Quick Actions at the top of the main menu, even on tablet-sized device screens.
+
+<br>
+
 ## [1.0.16]
 
 - Implemented data deletion functionality. Added a “Destruct Data” option to the main menu.
