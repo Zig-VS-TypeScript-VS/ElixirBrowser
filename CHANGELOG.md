@@ -26,6 +26,15 @@
 
 ## ・Implemented Features
 
+## [1.0.18]
+
+- Fixed an issue where selecting “Web Search” from other apps didn't work properly.
+    - This was a pretty big problem, but I hadn't noticed it at all until recently. 🐧
+- Changed the extension management page to always open in a new tab.
+- Fixed an issue where the floating keyboard became unresponsive when gesture features were enabled. (Still won't work on Android 11 and below due to API incompatibility)
+
+<br>
+
 ## [1.0.17]
 
 - **Fixed an issue where certain non-popup extensions caused the browser to crash immediately after execution.**
