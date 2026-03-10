@@ -31,7 +31,7 @@
 - Fixed an issue where selecting “Web Search” from other apps didn't work properly.
     - This was a pretty big problem, but I hadn't noticed it at all until recently. 🐧
 - Changed the extension management page to always open in a new tab.
-- Fixed an issue where the floating keyboard became unresponsive when gesture features were enabled. (Still won't work on Android 11 and below due to API incompatibility)
+- Fixed an issue where the floating keyboard became unresponsive when gesture features were enabled. (Still won't work on Android 11 and earlier due to API incompatibility)
 
 <br>
 
