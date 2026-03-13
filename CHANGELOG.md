@@ -7,7 +7,6 @@
 
 -   Major refactoring of all code related to the bottom toolbar (This is going to take a lot of time & be tough)
     -   Until this is complete, I cannot accept any requests related to the bottom toolbar. Please forgive me. 💃
--   Support for external download managers or an option to always ask for the download location. (It has become clear that this is more difficult than anticipated, so implementation is expected to take time)
 
 ---
 
@@ -25,6 +24,16 @@
 <br>
 
 ## ・Implemented Features
+
+## [1.0.19]
+
+- **Added support for external download managers.**
+    - A toggle has been added under Settings > Downloads.
+    - Based on testing with 1DM and ADM, it works properly. There should be no issues.
+    - If you select “Download” from the menu that appears after a long tap, Elixir will handle the download as usual.
+- Fixed an issue where a blank space appeared below the toolbar on some devices.
+
+<br>
 
 ## [1.0.18]
 
